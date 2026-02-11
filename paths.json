@@ -1,7 +1,0 @@
-{
-  "mappings": [
-    "/content/eaem-xwalk-eds/:/",
-    "/content/eaem-xwalk-eds/metadata:/metadata.json",
-    "/content/eaem-xwalk-eds/configuration:/.helix/config.json"
-  ]
-}
