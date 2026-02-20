@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-resources",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-19T23:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://investor.vanguard.com/",
+    "originPage": "Vanguard Investor homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "resource-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["resource listing sections", "help center links", "educational content cards"],
+    "notSuitableFor": ["hero sections", "navigation bars", "form layouts"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-19T23:10:00.000Z"
+  }
+}

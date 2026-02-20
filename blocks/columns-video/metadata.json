@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-video",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-02-19T23:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://investor.vanguard.com/",
+    "originPage": "Vanguard Investor homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "video-feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image/video + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["video feature sections", "media + text layouts", "promotional content with video"],
+    "notSuitableFor": ["text-only sections", "multi-column grids", "navigation bars"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-19T23:10:00.000Z"
+  }
+}

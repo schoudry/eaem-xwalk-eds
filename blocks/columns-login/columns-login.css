@@ -1,0 +1,33 @@
+.columns-login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-login img {
+  width: 100%;
+}
+
+.columns-login > div > div {
+  order: 1;
+}
+
+.columns-login > div > .columns-login-img-col {
+  order: 0;
+}
+
+.columns-login > div > .columns-login-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-login > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-login > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

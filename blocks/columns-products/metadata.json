@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-products",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-02-19T23:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://investor.vanguard.com/",
+    "originPage": "Vanguard Investor homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-list",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + CTA per column",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["product listing sections", "feature comparisons", "service offerings"],
+    "notSuitableFor": ["image-heavy layouts", "single column content", "hero sections"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-19T23:10:00.000Z"
+  }
+}

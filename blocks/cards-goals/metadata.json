@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-goals",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-19T23:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://investor.vanguard.com/",
+    "originPage": "Vanguard Investor homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "goal-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["goal selection sections", "service category cards", "feature highlight grids"],
+    "notSuitableFor": ["article listings", "testimonial displays", "navigation menus"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-19T23:10:00.000Z"
+  }
+}
