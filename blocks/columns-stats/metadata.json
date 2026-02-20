@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-stats",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-02-19T23:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://investor.vanguard.com/",
+    "originPage": "Vanguard Investor homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "stats-display",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "stat number + label per column",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["statistics sections", "key metrics displays", "data highlights"],
+    "notSuitableFor": ["image galleries", "long-form content", "navigation sections"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-19T23:10:00.000Z"
+  }
+}

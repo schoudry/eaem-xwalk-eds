@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://investor.vanguard.com/",
+  "path": "index",
+  "timestamp": "2026-02-20T14:40:24.063Z",
+  "title": "Vanguard: Helping you reach your investing goals | Vanguard",
+  "template": "homepage",
+  "blocks": [
+    "carousel-hero",
+    "columns-login",
+    "cards-goals",
+    "cards-goals",
+    "cards-goals",
+    "cards-goals",
+    "columns-products",
+    "columns-video",
+    "columns-stats",
+    "cards-featured",
+    "cards-resources",
+    "cards-resources",
+    "cards-resources",
+    "columns-banner"
+  ]
+}

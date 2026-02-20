@@ -1,0 +1,186 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://investor.vanguard.com/"
+      ],
+      "description": "Vanguard Investor homepage with financial services overview, investment options, and account access",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Carousel",
+          "selector": ".cmp-carousel--hero",
+          "style": null,
+          "blocks": [
+            "carousel-hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Login Bar",
+          "selector": "#login-section",
+          "style": null,
+          "blocks": [
+            "columns-login"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Goals Cards",
+          "selector": "#container-d6b4e839ac",
+          "style": null,
+          "blocks": [
+            "cards-goals"
+          ],
+          "defaultContent": [
+            "#container-d6b4e839ac .cmp-richtext"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Investment Products",
+          "selector": "#container-3cf0286f4d",
+          "style": null,
+          "blocks": [
+            "columns-products"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Empowering Investors",
+          "selector": "#hp-youre-in-good-company",
+          "style": null,
+          "blocks": [
+            "columns-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Discover Benefits CTA",
+          "selector": "#Account-types-overview-ready-to-open-account--section",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            "#Account-types-overview-ready-to-open-account--section .cmp-richtext",
+            "#Account-types-overview-ready-to-open-account--section .cmp-button"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Good Company Stats",
+          "selector": "#container-d881faf327",
+          "style": "dark",
+          "blocks": [
+            "columns-stats"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-8",
+          "name": "Helpful Resources",
+          "selector": "#container-6a4d79438a",
+          "style": null,
+          "blocks": [
+            "cards-featured",
+            "cards-resources"
+          ],
+          "defaultContent": [
+            "#container-6a4d79438a > .aem-Grid > .richtext:first-child"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "J.D. Power Award Banner",
+          "selector": ".cmp-experiencefragment--2025-jd-power-award-banner",
+          "style": "light-grey",
+          "blocks": [
+            "columns-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-10",
+          "name": "Start Investing CTA",
+          "selector": "#marketing-bar-article",
+          "style": "dark-red",
+          "blocks": [],
+          "defaultContent": [
+            "#marketing-bar-article .cmp-richtext",
+            "#marketing-bar-article .cmp-button"
+          ]
+        },
+        {
+          "id": "section-11",
+          "name": "Disclaimers",
+          "selector": "#hp-footer-info",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#hp-footer-info .cmp-richtext"
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [
+            ".cmp-carousel--hero"
+          ]
+        },
+        {
+          "name": "columns-login",
+          "instances": [
+            "#login-section"
+          ]
+        },
+        {
+          "name": "cards-goals",
+          "instances": [
+            "#container-d6b4e839ac .card.teaser.card--vertical"
+          ]
+        },
+        {
+          "name": "columns-products",
+          "instances": [
+            "#container-3cf0286f4d"
+          ]
+        },
+        {
+          "name": "columns-video",
+          "instances": [
+            "#hp-youre-in-good-company"
+          ]
+        },
+        {
+          "name": "columns-stats",
+          "instances": [
+            "#container-d881faf327"
+          ]
+        },
+        {
+          "name": "cards-featured",
+          "instances": [
+            ".card.teaser.card--horizontal"
+          ]
+        },
+        {
+          "name": "cards-resources",
+          "instances": [
+            ".card-container-3 .card.teaser.card--vertical"
+          ]
+        },
+        {
+          "name": "columns-banner",
+          "instances": [
+            ".cmp-experiencefragment--2025-jd-power-award-banner"
+          ]
+        }
+      ]
+    }
+  ]
+}

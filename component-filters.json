@@ -34,15 +34,114 @@
     ]
   },
   {
+    "id": "cards-featured",
+    "components": [
+      "cards-featured-card"
+    ]
+  },
+  {
+    "id": "cards-goals",
+    "components": [
+      "cards-goals-card"
+    ]
+  },
+  {
+    "id": "cards-resources",
+    "components": [
+      "cards-resources-card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
     ]
   },
   {
+    "id": "carousel-hero",
+    "components": [
+      "carousel-hero-item"
+    ]
+  },
+  {
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-banner",
+    "components": [
+      "columns-banner-column"
+    ]
+  },
+  {
+    "id": "columns-banner-column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-login",
+    "components": [
+      "columns-login-column"
+    ]
+  },
+  {
+    "id": "columns-login-column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-products",
+    "components": [
+      "columns-products-column"
+    ]
+  },
+  {
+    "id": "columns-products-column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-stats",
+    "components": [
+      "columns-stats-column"
+    ]
+  },
+  {
+    "id": "columns-stats-column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-video",
+    "components": [
+      "columns-video-column"
+    ]
+  },
+  {
+    "id": "columns-video-column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {
